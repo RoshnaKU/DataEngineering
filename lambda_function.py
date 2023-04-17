@@ -12,9 +12,8 @@ os_input_write_data_operation = os.environ['write_data_operation']
 
 def lambda_handler(event, context):
     # Get the object from the event and show its content type
-    bucket='roshna-raw-ohio-dev'
-    key='youtube/raw-statistical-reference-data/'
-    #key = urllib.parse.unquote_plus(event['Records'][0]['s3']['object']['key'], encoding='utf-8')
+    bucket = event['Records'][0]['s3']['bucket']['name']
+    key = urllib.parse.unquote_plus(event['Records'][0]['s3']['object']['key'], encoding='utf-8')
     try:
 
         # Creating DF from content
