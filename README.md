@@ -1,6 +1,7 @@
 # Forecast US Stock Prices with Facebook Prophet and Snowpark
 
-This project demonstrates how to forecast US stock prices using the Knoema Economy Data Atlas dataset available from the Snowflake Marketplace, Snowpark, and Facebook Prophet. The integration of these technologies allows for powerful and efficient stock price forecasting and analysis.
+As part of my learning journey, I have worked on this project based on the article : https://medium.com/snowflake/facebook-prophet-forecasts-running-in-snowflake-with-snowpark-14fc870b56ae
+This article explains usage of Snowpark and Facebook Prophet in Snowflake to predict currency exchange rates whereas I have used Knoema Economy Data Atlas dataset from Snowflake Marketplace to predict US stock prices for Amazon, Netflix, Apple and Meta.
 
 ## Introduction
 
